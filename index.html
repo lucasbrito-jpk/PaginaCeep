@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Designer Inspirado no CEEP</title>
     <link rel="stylesheet" href="style.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 </head>
 <body>
     <header>
@@ -55,9 +56,10 @@
         <p>&copy;2025 - CEEP - Todos os direitos reservados.</p>
     </footer>
     <script>
-        document.getElementById('contactform').addEventListener('submit'), function(event){
-            event.preventDefault();alert('Seu formulário foi enviado com sucesso!')
-        }
+        document.getElementById('contactFrom').addEventListener("submit", function(event){
+            event.preventDefault();alert('Mensagem enviada com sucesso!');this.reset();
+        });
     </script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </body>
 </html>
