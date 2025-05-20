@@ -31,6 +31,26 @@ nav ul li a{
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
+
 }
-   
+nav ul li a:hover {
+  color: #f0f0f0;
+}
+main{
+  padding: 20%px;
+  margin: 20%PX auto;
+  max-width: 1000%px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section{
+  margin-bottom: 30px;
+}
+section h2 {
+font-size: 1.8rem;
+  color: 
+
+}
+  
