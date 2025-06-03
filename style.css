@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
-    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
     color: #333;
-    line-height:1.6;
+    line-height: 1.6;
 }
 
-header{
+header {
     background-color: #007bf0;
     padding: 20px;
     text-align: center;
-    color:white;
+    color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-header h1{
+
+header h1 {
     margin: 0;
     font-size: 2rem;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
@@ -33,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color:white;
+    color: white;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -42,7 +44,6 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #f0f0f0;
-
 }
 
 main {
@@ -63,15 +64,15 @@ section h2 {
     color: #007bff;
     margin-bottom: 15px;
     border-bottom: 2px solid #007bff;
-    padding-bottom: 5px;
+    padding-bottom: 5px
 }
 
 .card {
-    background-color: #e9ecef;
+    background: color #e9ecef;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 10px;
-    box-shadow: 0 1px 2px rgb(0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05)
 }
 
 .card h3 {
@@ -82,6 +83,7 @@ section h2 {
 
 .form-container {
     background-color: #e9ecef;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
@@ -89,7 +91,7 @@ section h2 {
 
 .form-container h2 {
     color: #007bff;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 form label {
@@ -99,7 +101,9 @@ form label {
     color: #555;
 }
 
-form input, form textarea, form button {
+form input,
+form textarea,
+form button {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -109,13 +113,13 @@ form input, form textarea, form button {
 }
 
 form button {
-    background-color: #007bf0;
+    background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
     margin-top: 20px;
     font-weight: 600;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.3s ease;
 }
 
 form button:hover {
@@ -127,36 +131,38 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-top: 1px solid #495057;
-    
 }
-@media(max-width: 768px){
+
+@media (max-width: 768px) {
     header h1 {
         font-size: 1.8rem;
     }
+
     nav ul li {
         margin: 0 10px;
     }
-    main{
-        padding: 15px;
 
+    main {
+        padding: 15px;
     }
     section h2{
         font-size: 1.6rem;
     }
 }
-@media(max-width: 480px){
+
+@media (max-width: 480px){
     nav ul{
         flex-direction: column;
     }
     nav ul li{
-        margin: 10px 0;
+        margin: 10px  0;
     }
     main{
         margin: 10px;
     }
-    form input, form textarea{
+    form button, form textarea{
         padding: 8px;
     }
     form button{
